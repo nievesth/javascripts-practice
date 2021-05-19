@@ -11,5 +11,4 @@ let message = "";
 for (const data in alien) {  
     message = message + data+":"+ alien[data] +" , "
     }
-
 console.log(message)
